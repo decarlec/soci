@@ -1,0 +1,25 @@
+{
+	"name": "soci.cdva",
+	"displayName": "Soci",
+	"version": "0.0.0",
+	"description": "A Cordova wrapper for the soci web app",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"ecosystem:cordova"
+	],
+	"author": "Christian DeCarle",
+	"license": "Apache-2.0",
+	"devDependencies": {
+		"cordova-browser": "^7.0.0",
+		"cordova-electron": "^4.0.0"
+	},
+	"cordova": {
+		"platforms": [
+			"browser",
+			"electron"
+		]
+	}
+}
