@@ -8,9 +8,6 @@
 	<p>We'd like to hear about your interests...</p>
 	<p>So we can find people similar to you.</p>
 	<a href="/setup/collect">Continue-&gt; </a>
-	<br />
-	<br />
-	<a class="back" href="/">&lt;- Back</a>
 </div>
 
 <style>
@@ -22,9 +19,5 @@
 		left: 50%;
 		top: 50%;
 		transform: translate(-50%, -50%);
-	}
-
-	.back {
-		font-size: medium;
 	}
 </style>

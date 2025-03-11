@@ -6,8 +6,8 @@ const config = {
 	preprocess: vitePreprocess(),
 	kit: {
 		adapter: adapter({
-			strict: false,
-			platform: 'cordova'
+			strict: true,
+			platform: 'cordova',
 		})
 	},
         warningFilter: (warning) => {

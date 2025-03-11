@@ -4,10 +4,13 @@
 	"version": "0.0.1",
 	"type": "module",
 	"scripts": {
+		"setup": "cd cdva && cordova platform add browser || cordova platform add electron",
 		"dev": "vite dev",
 		"build": "vite build",
 		"build:cdva": "npm run build && cp -R build/* cdva/www/",
 		"cdva:serve": "cd cdva && cordova serve",
+		"run:browser": "cd cdva && cordova run browser",
+		"run:elec": "cd cdva && cordova run electron",
 		"full": "npm run build:cdva && cd cdva && cordova build && cordova run electron",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",

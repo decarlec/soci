@@ -1,5 +1,5 @@
 <!-- svelte-ignore a11y_click_events_have_key_events a11y_no_static_element_interactions -->
-<a href="setup/info" class="message-container">
+<a href="/setup/info" class="message-container">
 	<div class="message main">Welcome to Soci<br />-&gt;</div>
 	<div class="shadow ms2 message">Welcome to Soci<br />-&gt;</div>
 	<div class="shadow ms3 message">Welcome to Soci<br />-&gt;</div>

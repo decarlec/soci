@@ -2,6 +2,12 @@
 
 TBD: Social app using a prerendered sveltekit output running in Apache cordova.
 
+## Setup
+
+```bash
+bun setup
+```
+
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:

@@ -4,8 +4,8 @@
 	let { data }: { data: PageData } = $props();
 	let interests = ['skiing', 'diving', 'EPL', 'nascar'];
 	let searchTerm = $state('');
-	let filtered = $derived(interests.filter((a) => a.includes(searchTerm) && !selected.includes(a)));
 	let selected: Array<string> = $state([]);
+	let filtered = $derived(interests.filter((a) => a.includes(searchTerm) && !selected.includes(a)));
 </script>
 
 <div class="text" style:font-family="Tomorrow">
